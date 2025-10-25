@@ -14,3 +14,8 @@ idade = "s";
 print(idade);
 print(type(idade)); #descobre tipo
 
+#Tipagem estatica opcional
+idade: int = 70;
+print(idade);
+idade = 10.5; #vai funcionar mas com umm (aviso se usar mypy)
+print(idade);
